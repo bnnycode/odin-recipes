@@ -1,8 +1,53 @@
 .bod {
     background-color: rgb(233, 255, 250);
+    border-style: dotted;
+    border-width: 20px;
+    border-color: rgb(218, 158, 255);
+    height: 600px;
 }
 
 #title {
     color: rgb(186, 113, 255);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-left: 45px;
+}
+
+.link {
+    text-align: center;
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+#anchone {
+    background-color: rgb(255, 174, 240);
+    color: rgb(53, 19, 67);
+    text-decoration: none;
+    padding: 5px 20px;
+}
+
+#anchtwo {
+    background-color: rgb(232, 156, 255);
+    color: rgb(53, 19, 67);
+    text-decoration: none;
+    padding: 5px 15px;
+}
+
+#anchthree {
+    background-color: rgb(156, 227, 255);
+    color: rgb(53, 19, 67);
+    text-decoration: none;
+    padding: 8px 15px;
+}
+
+#anchone:hover {
+    background-color: rgb(192, 230, 255);
+}
+
+#anchtwo:hover {
+    background-color: rgb(255, 131, 168);
+}
+
+#anchthree:hover {
+    background-color: rgb(156, 255, 209);
 }
